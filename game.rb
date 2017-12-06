@@ -34,7 +34,6 @@ class Game
                 puts "P1: #{player1.health}/3 vs P2: #{player2.health}/3"
             end
             puts '----- NEW TURN -----'
-            # byebug
         end
 
         if player1.health > player2.health
